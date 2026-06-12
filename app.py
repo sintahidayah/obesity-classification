@@ -21,7 +21,7 @@ from sklearn.preprocessing import LabelEncoder
 # ==========================
 
 st.set_page_config(
-    page_title="Obesity Classification AI",
+    page_title="Obesity Classification",
     page_icon="🧠",
     layout="wide"
 )
@@ -264,7 +264,7 @@ df = pd.read_csv(
 # ==========================
 
 st.sidebar.title(
-    "🧠 Obesity AI"
+    "🧠 Obesity"
 )
 
 
@@ -290,7 +290,7 @@ if menu=="🏠 Dashboard":
 
 
     st.title(
-        "🧠 Obesity Classification AI"
+        "🧠 Obesity Classification"
     )
 
 
